@@ -50,9 +50,9 @@ nav a {
 /* header related styles */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner {
@@ -173,8 +173,8 @@ main section {
     color: #757575;
 }
 
-.resume-item-title{
-    color:  #474747;
+.resume-item-title {
+    color: #474747;
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
@@ -183,29 +183,36 @@ main section {
 .resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style */
-footer{
+footer {
     display: flex;
     padding: 130px 200px;
     gap: 100px;
     margin-top: 110px;
     background-color: #FFF8F3;
 }
+
 .social-link a {
     margin-right: 25px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
-.contact input[type="text"], .contact input[type="email"],textarea{
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 30px;
-    color:  #757575;
+    color: #757575;
     border-radius: 5px;
     background-color: #fff;
     border: none;
